@@ -48,29 +48,7 @@ The PCB was designed in **EasyEDA Pro** to make the project compact and eliminat
 
 ---
 
-## Manufactured PCB
 
-<p align="center">
-  <img src="images/pcb_real.jpg" width="750">
-</p>
-
----
-
-## 3D Printed Enclosure
-
-<p align="center">
-  <img src="images/enclosure.png" width="750">
-</p>
-
----
-
-## Final Assembly
-
-<p align="center">
-  <img src="images/final_assembly.jpg" width="750">
-</p>
-
----
 
 # Bill of Materials (BOM)
 
