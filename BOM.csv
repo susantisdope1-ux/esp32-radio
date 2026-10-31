@@ -1,0 +1,7 @@
+﻿"No.","Quantity","Comment","Designator","Footprint","Value","Manufacturer Part","Manufacturer","Supplier Part","Supplier","Category","Primary Category","Pin Count","JLCPCB Price","3D Model Title","Add into BOM","LCSC Price","Symbol","Type","LCSC Stock","LCSC Part Name","Name"
+"1","1","OLED display","J1","HDR-M-2.54_1X4","","","","C124378","LCSC","","","4","0.0079","HDR-M-2.54_1X4","yes","","OLED display","","","","OLED display"
+"2","1","ROTARY ENCODER","J2","HDR-M-2.54_1X5","","","","C358687","LCSC","","","5","0.0048","HDR-M-2.54_1x5","yes","","ROTARY ENCODER","","","","ROTARY ENCODER"
+"3","1","ESP32-S3-DEVKITC-1-N8","U1","CONN-TH_ESP32-S3-DEVKITC-1U-N8","","ESP32-S3-DEVKITC-1-N8","ESPRESSIF(乐鑫)","C20438410","LCSC","","","44","5.8084","","yes","","ESP32-S3-DEVKITC-1-N8","","","","ESP32-S3-DEVKITC-1-N8"
+"4","1","Block 2P","U4","BORNERA DOS TERMINALES TERMINAL BLOCK 5MM","","","","","Amazon","","","2","","","yes","","Block 2P","","","","Block 2P"
+"5","1","MAX98357A","U6","ADAFRUIT I2S 3W CLASS D AMPLIFIER MODULE-R - MAX98357A","","3006","Adafruit","3006","","","","7","","","yes","","MAX98357A","","","","MAX98357A"
+"6","3","0577-0-43-80-21-27-10-0","U7,U8,U9","TESTPOINT-TH_D0.5_0577-0-43-80-21-27-10-0","","0577-0-43-80-21-27-10-0","null","C2895400","LCSC","","","1","0.0002","TESTPOINT-TH_D0.5_0577-0-43-80-21-27-10-0","yes","","0577-0-43-80-21-27-10-0","","","","0577-0-43-80-21-27-10-0"
