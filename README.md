@@ -2,9 +2,10 @@
 
 The **ESP32-S3 Internet Radio** is a small desktop radio that can connect to radio stations over the internet using a Wi-Fi connection. This design gives you the ability to enjoy listening to thousands of radio stations from all over the world, with crystal-clear digital audio, unlike conventional FM radios whose reach is limited by geographical factors. The project makes use of a custom-made PCB board, a 3D printed case, and basic controls in creating this internet radio device for your desktop or workplace.
 
-This project uses the **ESP32-S3** microcontroller that connects to the internet, downloads the radio stream from the internet, decodes the audio, and outputs digital audio to the **MAX98357 I2S amplifier**. The amplifier feeds the audio to the **4Ω speaker**. The information such as the currently playing station is shown on a **0.96-inch OLED display**. The station and the volume levels can be controlled using the **rotary encoder**.
+This project uses the **ESP32-S3** microcontroller that connects to the internet, downloads the radio stream from the internet, decodes the audio, and outputs digital audio to the **MAX98357 I2S amplifier**. The amplifier feeds the audio to the **4Ω speaker**. The information such as the currently playing station is shown on a **0.96-inch OLED display**. The station and the volume levels can be controlled using the **rotary encoder**
 
-A PCB was made in **EasyEDA Pro** to keep the design small and cut out unnecessary connections. An enclosure was designed in **Fusion 360**, which was 3D-printed in PLA to produce an elegant design for use on a desk that securely houses all the components.
+ A PCB was made in **EasyEDA Pro** to keep the design small and cut out unnecessary connections. An enclosure was designed in **Fusion 360**, which was 3D-printed in PLA to produce an elegant design for use on a desk that securely houses all the components.
+ 
 ---
 
 # Characteristics
@@ -47,17 +48,20 @@ A PCB was made in **EasyEDA Pro** to keep the design small and cut out unnecessa
 
 # Bill of Materials (BOM)
 
-| Qty | Component |
-|:---:|-----------|
-| 1 | ESP32-S3 Development Board |
-| 1 | MAX98357A I2S Audio Amplifier |
-| 1 | 0.96" OLED Display (I2C) |
-| 1 | Rotary Encoder |
-| 1 | 4Ω Speaker |
-| 1 | DC Barrel Jack |
-| 1 | 2-Pin Screw Terminal |
-| 3 | 2.54 mm Pin Headers |
-| 1 | Custom PCB |
+## Bill of Materials (BOM)
+
+| Qty | Component | Purchase Link | Approx. Cost |
+|:---:|-----------|---------------|------------:|
+| 1 | ESP32-S3 DevKit (N16R8 Recommended) | https://www.aliexpress.com/wholesale?SearchText=ESP32-S3+N16R8 | $10.00 |
+| 1 | MAX98357A I2S Amplifier Module | https://www.aliexpress.com/wholesale?SearchText=MAX98357A | $2.20 |
+| 1 | 0.96" OLED Display (I2C) | https://www.aliexpress.com/wholesale?SearchText=0.96+OLED+I2C | $2.50 |
+| 1 | EC11 Rotary Encoder | https://www.aliexpress.com/wholesale?SearchText=EC11+Rotary+Encoder | $0.80 |
+| 1 | 4Ω 3W Speaker | https://www.aliexpress.com/wholesale?SearchText=4ohm+3w+speaker | $1.50 |
+| 1 | DC Barrel Jack | https://easyeda.com/component/search/DC005 | $0.20 |
+| 1 | 2-Pin Screw Terminal (5.08mm) | https://easyeda.com/component/search/Terminal%20Block | $0.15 |
+| 3 | 2.54mm Pin Header | https://easyeda.com/component/search/Pin%20Header | $0.10 |
+| 1 | Custom PCB | JLCPCB | $4.00 |
+
 
 ---
 
