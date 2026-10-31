@@ -23,7 +23,8 @@ This project uses the **ESP32-S3** microcontroller that connects to the internet
 ## Schematic
 
 <p align="center">
-  <img src="images/schematic.png" width="850">
+  <img width="1101" height="647" alt="Screenshot 2026-10-31 201057" src="https://github.com/user-attachments/assets/9867eb2d-179a-438e-9adc-1fd5a8e0d49e" />
+
 </p>
 
 ---
@@ -31,7 +32,8 @@ This project uses the **ESP32-S3** microcontroller that connects to the internet
 ## PCB Layout
 
 <p align="center">
-  <img src="images/pcb_layout.png" width="850">
+  <img width="572" height="646" alt="Screenshot 2026-10-31 202431" src="https://github.com/user-attachments/assets/825d9bb3-be4b-4e38-b4a6-13d400604fac" />
+
 </p>
 
 ---
@@ -39,7 +41,8 @@ This project uses the **ESP32-S3** microcontroller that connects to the internet
 ## 3D PCB View
 
 <p align="center">
-  <img src="images/pcb_3d.png" width="750">
+  <img width="907" height="722" alt="Screenshot 2026-10-31 202501" src="https://github.com/user-attachments/assets/ab27e3e6-7127-4f0f-b808-865a848e467b" />
+
 </p>
 
 ---
