@@ -1,24 +1,19 @@
 # ESP32-S3 Internet Radio
 
-The **ESP32-S3 Internet Radio** is a compact desktop radio that streams online radio stations over a Wi-Fi connection. Unlike traditional FM radios, which are limited by broadcast range and signal quality, this project allows you to listen to thousands of radio stations from around the world with clear digital audio. It combines a custom-designed PCB, a 3D-printed enclosure, and simple controls to create an easy-to-use internet radio for your desk or workspace.
+The **ESP32-S3 Internet Radio** is a small desktop radio that can connect to radio stations over the internet using a Wi-Fi connection. This design gives you the ability to enjoy listening to thousands of radio stations from all over the world, with crystal-clear digital audio, unlike conventional FM radios whose reach is limited by geographical factors. The project makes use of a custom-made PCB board, a 3D printed case, and basic controls in creating this internet radio device for your desktop or workplace.
 
-The project is built around the **ESP32-S3**, which manages the Wi-Fi connection, downloads the audio stream from the internet, decodes it, and sends digital audio to the **MAX98357 I2S amplifier**. The amplifier directly drives a **4Ω speaker** for clean and efficient sound. A **0.96-inch OLED display** shows useful information such as the current station and connection status, while a **rotary encoder** allows you to switch between saved stations and adjust the volume.
+This project uses the **ESP32-S3** microcontroller that connects to the internet, downloads the radio stream from the internet, decodes the audio, and outputs digital audio to the **MAX98357 I2S amplifier**. The amplifier feeds the audio to the **4Ω speaker**. The information such as the currently playing station is shown on a **0.96-inch OLED display**. The station and the volume levels can be controlled using the **rotary encoder**.
 
-The PCB was designed in **EasyEDA Pro** to make the project compact and eliminate unnecessary wiring. A custom enclosure was created in **Fusion 360** and 3D printed using PLA, resulting in a clean desktop design that securely holds all of the components.
-
+A PCB was made in **EasyEDA Pro** to keep the design small and cut out unnecessary connections. An enclosure was designed in **Fusion 360**, which was 3D-printed in PLA to produce an elegant design for use on a desk that securely houses all the components.
 ---
 
-# Features
+# Characteristics
 
-- ESP32-S3 Wi-Fi Microcontroller
-- Internet Radio Streaming
+- ESP32-S3 Wi-Fi Microcontroller Board
+- Internet Radio Streaming Capabilities
 - MAX98357A I2S Digital Audio Amplifier
-- 0.96" I2C OLED Display
-- Rotary Encoder for Navigation
-- Custom EasyEDA PCB
-- Compact 3D Printed Enclosure
-- 5V DC Power Input
-- Clean and Modular Design
+- 0.96" I2C OLED Display Module
+- 5V DC Power Supply
 
 ---
 
@@ -84,20 +79,17 @@ The PCB was manufactured through **JLCPCB** using the standard 2-day production 
 
 # Software
 
-The firmware was developed using the **Arduino Framework** for the ESP32-S3. After powering on, the device automatically connects to the configured Wi-Fi network and starts streaming one of the predefined internet radio stations. Additional stations can easily be added by modifying the source code.
-
+The firmware has been created with the help of the **Arduino Framework** for the ESP32-S3 microcontroller. When powered on, the device automatically connects to the specified Wi-Fi network and streams the selected internet radio station from those available in the list of preset stations.
 ---
 
 # Tools Used
 
 - EasyEDA Pro
 - Arduino IDE
-- Fusion 360
 - JLCPCB
-- 3D Printer
 
 ---
 
-# License
+# MADE BY SAN JU GAM FOR HACK CLUB
 
-This project is open-source and intended for learning, educational purposes, and personal projects. Feel free to modify, improve, and build upon the design.
+## This project is open-source
